@@ -72,7 +72,7 @@ class ViewController: UIViewController {
             let starNumber = (lunardateInt! - 1 + 23)%27
             twentyEightLabel.text = star[starNumber]
         }else if dateString.contains("臘月") {
-            let starNumber = (lunardateInt! - 1 + 26)%27
+            let starNumber = (lunardateInt! - 1 + 25)%27
             twentyEightLabel.text = star[starNumber]
         }
         let twentyEightText = twentyEightLabel.text!
